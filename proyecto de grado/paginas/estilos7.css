@@ -1,0 +1,194 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    /* Pattern from https://www.heropatterns.com/ */
+    background-image: linear-gradient(135deg,#00B7D4,#8d93f1,#2c54f7,#c01fa5,#5a4894,#a950a1,#ff7cae);
+    background-size: 500%;
+    color: #1e272e;
+    color: #fff;
+    font-size: 16px;
+    animation: fanimado 10s infinite;
+  }
+  @keyframes fanimado{
+      0%{
+          background-position: 0% 50%;
+
+      }
+      50%{
+          background-position: 100% 50%;
+      }
+      100%{
+          background-position: 0% 50%;
+      }
+  }
+  
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    width: 85%;
+    margin:auto ;
+  }
+  
+  /* Navigation */
+  #btn-mas{
+    display: none;
+  }
+  
+  .nav-main {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+  }
+  
+  .nav-brand {
+    width: 50px;
+  }
+  
+  /* Navbar Left */
+  
+
+  .nav-main ul {
+    display: flex ;
+  } 
+  
+  .nav-main ul li  {
+    padding: 10px;
+  } 
+  .nav-main ul li a {
+    padding: 2px;
+  
+  }
+  .nav-main ul li a:hover {
+    background: #fff;
+    color: #cc2b2b;
+    border-bottom: 2px solid #fff;
+  } 
+  .nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 100px;
+  }
+  hr {
+    margin: 10px 0;
+  }
+  .subs{
+    text-align: center;
+    font-weight: 100;
+    color: #05010e;
+    margin-bottom: 10px;
+    font-size: 25px;
+
+}
+ /* Responsive Button */
+ .menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    z-index: 20px;
+    display: none;
+    }
+    header{
+      width: 100%;
+      height: 600px;
+      background: #3494E6;
+        /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EC6EAD, #3494E6); 
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, hsla(330, 77%, 68%, 0.472), hsla(208, 78%, 55%, 0.342)), url(imagenes.jpg/pexels-li-sun-2294353.jpg);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background-size: cover;
+     background-attachment: fixed;
+    
+     position: relative
+    }
+    .wave{
+      position: absolute;
+      bottom: 0;
+      width: 85%;
+     
+      
+    }
+    
+    
+    .parrafos{
+      font-size: 20px;
+      padding: 20px 20px;
+      line-height:1.5;
+      background:rgb(119, 25, 119);
+      border-radius: 5px;
+      float: left;
+
+    }
+    .subtitulo{
+      text-align: center;
+      font-weight: 100;
+      color: black;
+      margin-bottom: 40px;
+      font-size: 25px;
+      
+  }
+  .titulo{
+    text-align: left;
+    font-weight: 100;
+    color:black;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+    .parrafos{
+      display: flex;
+      justify-content: space-between;
+      border: rgb(91, 188, 218) solid 2px;
+      height: 550px;
+
+    }
+    .parrafos .parrafos1{
+      padding: 20px 20px;
+    }
+    .social {
+      margin: 50px;
+    }
+    .social p {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .social{
+      border: rgb(253, 104, 228) solid 2px;
+      height: 150px;
+    }
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .links a {
+      margin: 0 30px;
+    }
+    .links a i {
+      font-size: 3rem;
+    
+      }
+
+
+    
+
+    
